@@ -1,0 +1,19 @@
+.categorias{
+  background-color:rgb(255, 255, 255);
+  height: 100px;
+  width: 100%;
+  color: #0e0f0f;
+  display: flex;
+  justify-content: space-around;
+  font-size: larger; 
+  font-weight: bolder;
+  text-decoration: none;
+  text-decoration-line: none;
+  background: linear-gradient(rgb(22, 101, 192),rgba(0, 102, 255, 0.712),rgb(33, 126, 143));
+  margin:0;
+  box-sizing: border-box;
+  padding-top: 10px;
+  align-items: center;
+}
+
+
