@@ -4,9 +4,18 @@
     flex-wrap: wrap;
     align-content:normal;
     justify-content: space-between;
-    margin: auto;
+    margin: 10px;
+    padding: 5px;
     width:auto;
     height: auto;  
   }
   
   
+@media(max-width:816px)and(min-width:500px){
+  .Lista{
+    display:block;
+    text-align: center;
+  }
+
+ 
+}

@@ -17,3 +17,19 @@
 }
 
 
+@media (max-width:500px){
+  .categorias{
+    height: 60px;
+    font-size: medium;
+  }
+}
+
+
+
+  .wrapper{
+    @media (min-width:470px) {
+      display: none;
+    }
+     
+  
+  }
