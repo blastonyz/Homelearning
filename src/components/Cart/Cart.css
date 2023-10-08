@@ -1,0 +1,13 @@
+.Cart{
+    padding-top: 2rem;
+    background-image: url(../../../tec.jpg);
+    background-size: 100%;
+    background-repeat: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}

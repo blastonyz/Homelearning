@@ -33,7 +33,7 @@ export const CartProvider = ({children}) => {
         return cart.some(prod => prod.id === itemId)
     }
     const cantidadTotal = () => {
-        const added =!cart.length?0:(cart.length)
+        const added = !cart.length?0:(cart.length)
        return added
     }
 

@@ -3,6 +3,6 @@
     display: flex;
     justify-content: center;
     background-image: url(../../../public/images/tec.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size:100%;
+    background-repeat: repeat-x;
 }

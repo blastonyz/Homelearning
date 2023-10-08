@@ -55,7 +55,7 @@ align-items: center;
 }
 
 
-@media (max-width:500px){
+@media (max-width:600px){
   .CardItem{
     width: 200px;
     height: 250px;
@@ -99,3 +99,14 @@ align-items: center;
   }
 }
 
+@media (max-width:840px)and (min-width:601px) {
+  .CardItem{
+ margin-left: 15%;
+  }
+}
+
+@media (max-width:450px){
+  .CardItem{
+    margin-left: 15%;
+  }
+}

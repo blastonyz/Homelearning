@@ -1,17 +1,28 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-
-const CartItem = ({nombre,precio,id}) =>{
+import { Link } from "react-router-dom";
+import './CartItem.css'
+const CartItem = ({nombre,precio,id,checkout,img}) =>{
     const {removeItem} = useContext(CartContext)
 
     return(
         <div className="Principal">
             <section className="CartItem">
-                <h4>{nombre}</h4>
-                <div>Precio: ${precio}</div>
+                  <div className="CartImg">
+                    <img src={img} className="CartImg" alt="" />
+                 </div>
                 
-                <div>Subtotal: ${precio*cantidad}</div>
-                <button onClick={()=>removeItem(id)} className="boton">X</button>
+                <div className="CartTitle">
+                         <h2 className="CartText">{nombre}</h2>
+                        <h2 className="CartText">  Precio: ${precio}</h2>
+                </div>
+                <div className="Butons">
+                <Link to={checkout}  target='_blank' className="LinkC" >
+                        <p className='botonComprar'>COMPRAR</p>
+                    </Link>
+                    <p>Remover</p>
+                <button onClick={()=>removeItem(id)} className="Boton"> X</button>
+                </div>
             </section>
         </div>
     )

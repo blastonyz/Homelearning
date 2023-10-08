@@ -40,9 +40,9 @@ export const ItemDetail =  ({nombre,precio,categoria,img,checkout,id}) => {
                 </section>
                     
                     
-                    <button type='button'onClick={handlerAdd} >Agregar al carrito</button>
+                    <button type='button'onClick={handlerAdd} className='OptionC' >Agregar al carrito</button>
                     <Link to={checkout} className='OptionC' target='_blank' >
-                        <p className='botonComprar'>COMPRAR</p>
+                        <p >COMPRAR</p>
                     </Link>
                        
                         
