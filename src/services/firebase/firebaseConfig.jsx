@@ -8,7 +8,7 @@ const firebaseConfig = {
   storageBucket: "blasantoniozamora-react.appspot.com",
   messagingSenderId: "61348048006",
   appId: "1:61348048006:web:eaa6f19b85717da08fb507",
-  measurementId: "G-CCV4XGSKJ4"
+  measurementId: "G-ECVGDDJZH4"
 };
 
 

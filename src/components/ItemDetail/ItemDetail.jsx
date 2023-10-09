@@ -4,7 +4,7 @@ import { CartContext } from '../../context/CartContext'
 
 
 export const ItemDetail =  ({nombre,precio,categoria,img,checkout,id}) => {  
-    const [itemAdded,setitemAdded] = useState(false)
+    const [itemAdded,setitemAdded] = useState(null)
     const {addItem}= useContext(CartContext)
     
 
@@ -15,6 +15,9 @@ export const ItemDetail =  ({nombre,precio,categoria,img,checkout,id}) => {
       addItem(item)
 
       setitemAdded(item)
+      if(itemAdded == null){
+        return 0
+      }
     }
   
   
