@@ -16,7 +16,7 @@ export const ItemDetail =  ({nombre,precio,categoria,img,checkout,id}) => {
 
       setitemAdded(item)
       if(itemAdded == null){
-        return 0
+        return 0;
       }
     }
   

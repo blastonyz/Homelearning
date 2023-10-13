@@ -1,17 +1,11 @@
 {
   "hosting": {
-    "site": "homelearninglam",
-    "public": "public",
+    "site": "homelearninglatam",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
